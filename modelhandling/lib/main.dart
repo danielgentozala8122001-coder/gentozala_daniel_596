@@ -10,7 +10,7 @@ void main() async {
     anonKey:
         'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImVjZHpna3VlcndmdG1peHNyZWp0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzA4ODA3OTksImV4cCI6MjA4NjQ1Njc5OX0.WuU3-Bcfrk0puBcePXNo_bvfSG7yOsImKw3aIcUHkwQ',
   );
-
+  //bruhmomento
   runApp(const MyApp());
 }
 
