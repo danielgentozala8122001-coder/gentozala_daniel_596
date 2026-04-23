@@ -49,7 +49,11 @@ class ChatController {
     // Hint: Instantiate Message(username: username, message: message), then call
     //       await supabase.from('messages').insert(newMessage.toMap()).
     final newMessage = Message(username: username, message: message);
-    await supabase.from('messages').insert(newMessage.toMap());
+    await supabase
+        .from('messages')
+        .insert(newMessage.toMap())
+        .select()
+        .single();
   }
 
   // Clean up
